@@ -1,1 +1,0 @@
-export type RequestExtended = Request & { token?: string };
