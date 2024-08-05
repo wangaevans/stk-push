@@ -1,0 +1,35 @@
+{
+  "name": "lipa-na-mpesa-stk-push",
+  "version": "1.0.0",
+  "description": "Using the safaricom stk push",
+"scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tsc",
+    "start": "node dist/index.js",
+    "dev": "npx nodemon src/index.ts"
+  },
+  "dependencies": {
+    "axios": "^1.7.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.1.0",
+    "nodemon": "^3.1.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wangaevans/stk-push.git"
+  },
+  "author": "Wanga Evans",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wangaevans/stk-push/issues"
+  },
+  "homepage": "https://github.com/wangaevans/stk-push#readme"
+}
