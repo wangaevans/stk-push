@@ -18,6 +18,9 @@ Ensure you have the following environment variables set:
 
 - `MPESA_BUSINESS_SHORT_CODE`: Your M-Pesa business short code
 - `MPESA_PASS_KEY`: Your M-Pesa pass key
+- `MPESA_CONSUMER_KEY`
+- `MPESA_PASS_KEY`
+- `MPESA_BUSINESS_SHORT_CODE`
 
 ## Installation
 
