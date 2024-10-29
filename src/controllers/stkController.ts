@@ -21,7 +21,7 @@ const handleStkPush = async (req: RequestExtended, res: Response) => {
     PartyA: phone,
     PartyB: process.env.MPESA_BUSINESS_SHORT_CODE,
     PhoneNumber: phone,
-    CallBackURL: "https://wangaevans.com/",
+    CallBackURL: "https://mydomain.com/pat",
     AccountReference: "BuySasa online shop",
     TransactionDesc: "Payment",
   };
